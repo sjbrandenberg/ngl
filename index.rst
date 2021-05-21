@@ -24,12 +24,17 @@ from the data. To facilitate end-to-end workflows, the NGL database is replicate
 users can interact with it using Jupyter notebooks. NGL Jupyter notebooks are published as projects accessible in
 DesignSafe via the following DOI's:
 
-https://doi.org/10.17603/ds2-xvp9-ag60
-https://doi.org/10.17603/ds2-99kp-rw11
-https://doi.org/10.17603/ds2-cmn0-h864
-https://doi.org/10.17603/ds2-tq39-kp49
-https://doi.org/10.17603/ds2-sj7t-av93
-https://doi.org/10.17603/ds2-2xzy-1y96
+https://doi.org/10.17603/ds2-xvp9-ag60 Sample Queries
+
+https://doi.org/10.17603/ds2-99kp-rw11 Cone Penetration Test Viewer
+
+https://doi.org/10.17603/ds2-cmn0-h864 Surface Wave Viewer
+
+https://doi.org/10.17603/ds2-tq39-kp49 Invasive Geophysical Test Viewer
+
+https://doi.org/10.17603/ds2-sj7t-av93 Boring Log Viewer
+
+https://doi.org/10.17603/ds2-2xzy-1y96 Partner Dataset Overview
 
 Importing the ngl_db package and connecting to the database
 ___________________________________________________________
@@ -40,10 +45,10 @@ connect to the database. The lines of code below first imports the ngl_db Python
 connection object to the database called cnx.
 
 .. code-block:: python
-   :linenos:
 
-   import ngl_db
-   cnx = ngl_db.connect()
+    import ngl_db
+    cnx = ngl_db.connect()
+   
 
 Understanding the database schema
 _________________________________
@@ -71,4 +76,6 @@ ________
 .. toctree::
    :maxdepth: 1
    
+   connecting_to_database
+   understanding_schema
    site_table_query
