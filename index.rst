@@ -42,6 +42,6 @@ Packages
 ________
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    connect_to_database
