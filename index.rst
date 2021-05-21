@@ -44,6 +44,6 @@ ________
 .. toctree::
    :maxdepth: 1
    
-   connecting_to_database
+   connect_to_database
    understanding_schema
    site_table_query
